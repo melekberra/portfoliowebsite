@@ -55,3 +55,34 @@
       margin-right: 10px;
       border: 5px dotted red;
     }
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5%;
+      height: 300px;
+      align-items: center;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .menu-container {
+      color: #fff;
+      background-color: blue;
+      padding: 20px 40px 100px 98px;
+    }
+    .menu {
+      border: 1px solid #264926;
+      width: 900px;
+    }
+    .links {
+      gap: 10px;
+      display: flex;
+    }
+    .photo-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
